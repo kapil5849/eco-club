@@ -1,0 +1,71 @@
+body,
+h1,
+h2,
+h3,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.welcome-header {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.welcome-content {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.explore-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.explore-button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-container {
+        padding: 10px;
+    }
+}

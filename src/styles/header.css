@@ -1,0 +1,48 @@
+.header {
+    background-color: #2196f3;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196f3;
+    height: 50px;
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    color: orange;
+    margin-right: 0.5rem;
+}
+
+.rtu-text {
+    color: white;
+}
+
+.kota-text {
+    color: #138808;
+}
+
+@media (max-width: 768px) {
+    .nav-wrapper {
+        padding: 0.5rem;
+    }
+
+    .brand-logo {
+        font-size: 1.2rem;
+    }
+}

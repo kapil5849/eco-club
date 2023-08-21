@@ -1,0 +1,42 @@
+.about-eco-club {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-eco-club h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-eco-club p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-eco-club {
+        padding: 15px;
+        margin: 10px auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about-eco-club h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .about-eco-club p {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
